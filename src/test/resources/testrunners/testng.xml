@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Amazon Test Suite" verbose="4"  >
+
+	<listeners>
+		<listener
+			class-name="com.qa.amazon.listeners.AnnotationTransformer" />
+		<listener
+			class-name="com.qa.amazon.listeners.ExtentReportListener" />
+		<listener
+			class-name="com.qa.amazon.listeners.TestAllureListener" />
+	</listeners>
+
+
+<!-- 	<test name="Amazon RegistrationPageTest - ch - 89">
+		<classes>
+		     <class name="com.qa.amazon.tests.RegistrationPageTest" />
+		</classes>
+	</test>
+	
+	
+	<test name="Amazon LoginPage Test - ch - 89">
+		<classes>
+		     <class name="com.qa.amazon.tests.LoginPageTest" />
+		</classes>
+	</test>
+	
+	
+	<test name="Amazon AccountsPageTest - ch - 90">
+		<classes>
+			 <class name="com.qa.amazon.tests.AccountsPageTest" />
+		</classes>
+	</test>
+	
+	<test name="Amazon ProductInfoPageTest - ch - 91">
+		<classes>
+		     <class name="com.qa.amazon.tests.ProductInfoPageTest" />
+		</classes>
+	</test> -->
+	
+	<test name="Amazon RegistrationPageTest - ch - 89">
+		<classes>
+		     <class name="com.qa.amazon.tests.RegistrationPageTest" />
+		</classes>
+	</test>
+	
+	<test name="Amazon CartPage Test - ch - 92">
+		<classes>
+		     <class name="com.qa.amazon.tests.CartPageTest" />
+		</classes>
+	</test>
+	
+	
+		
+</suite>
