@@ -17,7 +17,7 @@ public class RegistrationPageTest extends BaseTest {
 	@BeforeClass
 	public void setupRegistration() {
 		 loginPage = new LoginPage(driver);
-		 registrationPage = loginPage.goToRegisterPage();
+		
 	}
 	
 	
